@@ -57,73 +57,71 @@ public class Examen05 extends AppCompatActivity {
                 listaDatos.clear();
 
                 for (int i = 0; i < listaDatos2.size(); i++) {
-                    for (int j = 0; j < listaDatos2.get(i).size(); j++) {
-                        switch (checkedId) {
-                            case R.id.radioISC:
-                                if (radioISC.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
-                                    datos =  listaDatos2.get(i).get(0).toString() + " - " +
-                                            listaDatos2.get(i).get(1).toString() + " - " +
-                                            listaDatos2.get(i).get(2).toString() + " - " +
-                                            listaDatos2.get(i).get(3).toString() + " - " +
-                                            listaDatos2.get(i).get(4).toString() + " - " +
-                                            listaDatos2.get(i).get(5).toString() + " - " +
-                                            listaDatos2.get(i).get(6).toString();
-                                    listaDatos.add(datos);
-                                }
-                                break;
+                    switch (checkedId) {
+                        case R.id.radioISC:
+                            if (radioISC.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
+                                datos =  listaDatos2.get(i).get(0).toString() + " - " +
+                                        listaDatos2.get(i).get(1).toString() + " - " +
+                                        listaDatos2.get(i).get(2).toString() + " - " +
+                                        listaDatos2.get(i).get(3).toString() + " - " +
+                                        listaDatos2.get(i).get(4).toString() + " - " +
+                                        listaDatos2.get(i).get(5).toString() + " - " +
+                                        listaDatos2.get(i).get(6).toString();
+                                listaDatos.add(datos);
+                            }
+                            break;
 
-                            case R.id.radioIM:
-                                if (radioIM.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
-                                    datos =  listaDatos2.get(i).get(0).toString() + " - " +
-                                            listaDatos2.get(i).get(1).toString() + " - " +
-                                            listaDatos2.get(i).get(2).toString() + " - " +
-                                            listaDatos2.get(i).get(3).toString() + " - " +
-                                            listaDatos2.get(i).get(4).toString() + " - " +
-                                            listaDatos2.get(i).get(5).toString() + " - " +
-                                            listaDatos2.get(i).get(6).toString();
-                                    listaDatos.add(datos);
-                                }
-                                break;
+                        case R.id.radioIM:
+                            if (radioIM.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
+                                datos =  listaDatos2.get(i).get(0).toString() + " - " +
+                                        listaDatos2.get(i).get(1).toString() + " - " +
+                                        listaDatos2.get(i).get(2).toString() + " - " +
+                                        listaDatos2.get(i).get(3).toString() + " - " +
+                                        listaDatos2.get(i).get(4).toString() + " - " +
+                                        listaDatos2.get(i).get(5).toString() + " - " +
+                                        listaDatos2.get(i).get(6).toString();
+                                listaDatos.add(datos);
+                            }
+                            break;
 
-                            case R.id.radioIIA:
-                                if (radioIIA.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
-                                    datos =  listaDatos2.get(i).get(0).toString() + " - " +
-                                            listaDatos2.get(i).get(1).toString() + " - " +
-                                            listaDatos2.get(i).get(2).toString() + " - " +
-                                            listaDatos2.get(i).get(3).toString() + " - " +
-                                            listaDatos2.get(i).get(4).toString() + " - " +
-                                            listaDatos2.get(i).get(5).toString() + " - " +
-                                            listaDatos2.get(i).get(6).toString();
-                                    listaDatos.add(datos);
-                                }
-                                break;
+                        case R.id.radioIIA:
+                            if (radioIIA.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
+                                datos =  listaDatos2.get(i).get(0).toString() + " - " +
+                                        listaDatos2.get(i).get(1).toString() + " - " +
+                                        listaDatos2.get(i).get(2).toString() + " - " +
+                                        listaDatos2.get(i).get(3).toString() + " - " +
+                                        listaDatos2.get(i).get(4).toString() + " - " +
+                                        listaDatos2.get(i).get(5).toString() + " - " +
+                                        listaDatos2.get(i).get(6).toString();
+                                listaDatos.add(datos);
+                            }
+                            break;
 
-                            case R.id.radioLA:
-                                if (radioLA.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
-                                    datos =  listaDatos2.get(i).get(0).toString() + " - " +
-                                            listaDatos2.get(i).get(1).toString() + " - " +
-                                            listaDatos2.get(i).get(2).toString() + " - " +
-                                            listaDatos2.get(i).get(3).toString() + " - " +
-                                            listaDatos2.get(i).get(4).toString() + " - " +
-                                            listaDatos2.get(i).get(5).toString() + " - " +
-                                            listaDatos2.get(i).get(6).toString();
-                                    listaDatos.add(datos);
-                                }
-                                break;
+                        case R.id.radioLA:
+                            if (radioLA.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
+                                datos =  listaDatos2.get(i).get(0).toString() + " - " +
+                                        listaDatos2.get(i).get(1).toString() + " - " +
+                                        listaDatos2.get(i).get(2).toString() + " - " +
+                                        listaDatos2.get(i).get(3).toString() + " - " +
+                                        listaDatos2.get(i).get(4).toString() + " - " +
+                                        listaDatos2.get(i).get(5).toString() + " - " +
+                                        listaDatos2.get(i).get(6).toString();
+                                listaDatos.add(datos);
+                            }
+                            break;
 
-                            case R.id.radioLC:
-                                if (radioLC.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
-                                    datos =  listaDatos2.get(i).get(0).toString() + " - " +
-                                            listaDatos2.get(i).get(1).toString() + " - " +
-                                            listaDatos2.get(i).get(2).toString() + " - " +
-                                            listaDatos2.get(i).get(3).toString() + " - " +
-                                            listaDatos2.get(i).get(4).toString() + " - " +
-                                            listaDatos2.get(i).get(5).toString() + " - " +
-                                            listaDatos2.get(i).get(6).toString();
-                                    listaDatos.add(datos);
-                                }
-                                break;
-                        }
+                        case R.id.radioLC:
+                            if (radioLC.getText().toString().equals(listaDatos2.get(i).get(6).toString())) {
+                                datos =  listaDatos2.get(i).get(0).toString() + " - " +
+                                        listaDatos2.get(i).get(1).toString() + " - " +
+                                        listaDatos2.get(i).get(2).toString() + " - " +
+                                        listaDatos2.get(i).get(3).toString() + " - " +
+                                        listaDatos2.get(i).get(4).toString() + " - " +
+                                        listaDatos2.get(i).get(5).toString() + " - " +
+                                        listaDatos2.get(i).get(6).toString();
+                                listaDatos.add(datos);
+                            }
+                            break;
                     }
                 }
 

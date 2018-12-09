@@ -16,7 +16,7 @@
 
         $respuesta['usuario'] = array();
         
-        $fila = $sentencia->fetch(PDO::FETCH_ASSOC)); 
+        $fila = $sentencia->fetch(PDO::FETCH_ASSOC); 
 
         $usuario = array();
 
