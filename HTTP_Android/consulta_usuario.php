@@ -21,7 +21,7 @@
         $usuario = array();
 
         $usuario['user'] = $fila['user'];
-        $usuario['password'] = $fila['password'];
+        $usuario['password'] = $password;
 
         array_push($respuesta['usuario'], $usuario);
         $respuesta['exito'] = 1;
